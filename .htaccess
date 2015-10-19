@@ -1,0 +1,26 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteCond %{REQUEST_URI} !^public
+#  RewriteRule ^(.*)$ /frontend/web/$1 [L]
+#  RewriteRule . /index.php
+  RewriteRule ^admin(/.+)?$ backend/web/$1 [L,PT]
+  RewriteRule ^(.+)?$ frontend/web/$1
+
+  #RewriteRule ^(.*)$ frontend/web/$1 [L]
+  #RewriteRule . index.php
+</IfModule>
+
+# Deny accessing below extensions
+<Files ~ "(.json|.lock|.git)">
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny accessing dot files
+RewriteRule (^\.|/\.) - [F]
+
+
+

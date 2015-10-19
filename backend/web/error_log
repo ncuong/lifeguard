@@ -1,0 +1,6 @@
+[25-Mar-2015 08:34:18 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/superkid/public_html/quanlygio/vendor/yiisoft/yii2/Yii.php on line 25
+[25-Mar-2015 08:35:59 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/superkid/public_html/quanlygio/vendor/yiisoft/yii2/Yii.php on line 25
+[25-Mar-2015 08:37:03 Asia/Ho_Chi_Minh] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 's' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/superkid/public_html/quanlygio/backend/web/index.php on line 14
+[25-Mar-2015 08:37:39 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/superkid/public_html/quanlygio/vendor/yiisoft/yii2/Yii.php on line 25
+[25-Mar-2015 08:38:43 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/superkid/public_html/quanlygio/vendor/yiisoft/yii2/Yii.php on line 25
+[25-Mar-2015 08:39:22 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/superkid/public_html/quanlygio/vendor/yiisoft/yii2/Yii.php on line 25

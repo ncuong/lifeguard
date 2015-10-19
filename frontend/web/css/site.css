@@ -1,0 +1,390 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+.invite{
+    background-color: #00ADFF;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+.required label::after{
+    content: '*';
+}
+.page-home h1{
+    text-align: center;
+    margin: 15% 0 0;
+    font-size: 8em;
+    font-family: serif;
+    font-weight: 500;
+}
+.box-info-referrer dt{
+    width: 80px;
+    margin-bottom: 5px;
+}
+.box-info-referrer dd{
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.field-signupform-referrer, .field-signupform-sex, .field-signupform-graduate_high_school,
+.field-signupform-city, .field-signupform-mobile, .field-signupform-state, .field-signupform-password{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+.field-signupform-mobile{
+    padding-left: 0px;
+}
+.field-signupform-mobile >div{
+    padding-right: 0px;
+}
+
+#signupform-referrer{
+    /*background: rgba(0, 0, 255, 0.67);*/
+    /*color: #fdfffd;*/
+}
+
+#signupform-referrer::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: darkgray;
+}
+#signupform-referrer:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: darkgray;
+    opacity:  1;
+}
+#signupform-referrer::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: darkgray;
+    opacity:  1;
+}
+#signupform-referrer:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: darkgray;
+}
+#signupform-state option {
+    color: black;
+}
+.empty { color: #acacac; }
+
+.referrer-hint{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    padding: 5px 0 5px 15px;
+    color: #0000ff;
+    font-weight: bold;
+}
+/*.referrer-input{*/
+    /*padding: 10px 10px 6px;*/
+    /*border-radius: 5px 0 0 5px;*/
+    /*border-top: 1px solid #cccccc;*/
+    /*border-left: 1px solid #cccccc;*/
+    /*border-bottom: 1px solid #cccccc;*/
+/*}*/
+/*.field-signupform-referrer{*/
+    /*padding-left: 2.4%;*/
+/*}*/
+/*.referrer-hint{*/
+    /*border-radius: 0 5px 5px 0;*/
+    /*padding: 15px 0 25px;*/
+    /*margin: 0px;*/
+    /*border-top: 1px solid #cccccc;*/
+    /*border-right: 1px solid #cccccc;*/
+    /*border-bottom: 1px solid #cccccc;*/
+/*}*/
+/*.referrer-input input{*/
+    /*text-align: right;*/
+/*}*/
+.form-horizontal div.field-signupform-referrer{
+    /*border-bottom: 1px solid #d43f3a;*/
+    background: rgba(237,237,237,1);
+
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 76%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,1)), color-stop(76%, rgba(246,246,246,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 76%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 76%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 76%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 76%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff', GradientType=0 );
+}
+h1.registration{
+    padding: 0px;
+    margin: 0px;
+}
+.field-signupform-zip .col-sm-12{
+    padding-left: 3px;
+    padding-right: 0px;
+}
+#form-registration div.col-sm-offset-1{
+    margin-left: 4%;
+}
+
+@media (max-width: 768px) {
+    .field-signupform-last_name, .field-signupform-zip{
+        margin-left: 2.33333%;
+    }
+    .field-signupform-zip .col-sm-12{
+        padding-left: 0px;
+    }
+    .form-horizontal div.field-signupform-referrer{
+        margin-right: 0.5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .field-signupform-state .state-input{
+        padding-left: 0.3%;
+    }
+    .field-signupform-last_name, .field-signupform-zip{
+        margin-left: 0.3%;
+    }
+}
+
+.navbar-inverse .navbar-nav > li > a.btn-login{
+    color: white;
+    margin: 10px 10px 0 0;
+    padding: 3px 10px;
+}
+.navbar-inverse .navbar-nav > .active > a.btn-login, .navbar-inverse .navbar-nav > .active > a.btn-login:hover, .navbar-inverse .navbar-nav > .active > a.btn-login:focus{
+    background-color: #286090;
+    border-color: #204d74;
+}
+.navbar-inverse .navbar-nav > li > a.btn-login:hover{
+    background-color: #286090;
+    border-color: #204d74;
+}
+a.btn-join-us{
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.innerText p{
+    text-align: justify;
+}
+.report-one-form{
+    margin: 10px 0 0 0px;
+}
+.report-one-form .btn-find{
+    margin-left: 20px;
+    padding: 7px 25px;
+}
+.grid-view {
+    overflow-x: scroll;
+}
+.btn-action a{
+    padding-left: 10px;
+}
+
+th {
+    border: 1px solid black;
+
+}
+table{
+    border-collapse: collapse;
+}
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: none;
+}
+.option-show-column span{
+    padding: 0px 10px 0 5px;
+}
+
+
+
+table#tb-referrer {
+    table-layout: fixed;
+    width: 100%;
+    /*height:50px;*/
+    /**margin-left: -100px;*//*ie7*/
+}
+#tb-referrer td, #tb-referrer th:first-child {
+    /*vertical-align: top;*/
+    /*border-top: 1px solid #ccc;*/
+    /*padding:10px;*/
+    /*width:100px;*/
+}
+#tb-referrer th:last-child,#tb-referrer td:last-child {
+    position:absolute;
+    /**position: relative; *//*ie7*/
+    right:0;
+    width:100px;
+    border-bottom: 0px !important;
+    height: 100px;
+}
+.outer {position:relative}
+.inner {
+    overflow-x:scroll;
+    overflow-y:visible;
+    /*width:400px;*/
+    margin-right:100px;
+}
+#tb-referrer thead th:last-child{
+    /*top: 0;*/
+    border-top: 1px solid #cccccc !important;
+    padding-top: 2px !important;
+}
+.fix-box{
+    border: 1px solid #FFFFFF;
+    border-top: 1px solid #ccc;
+    width: 100px;
+    height: 58px;
+    position: absolute;
+    right: 0;
+    bottom: -20;
+}
+
+
+
+
+/**
+ * Framework starts from here ...
+ * ------------------------------
+ */
+
+.tree,
+.tree ul {
+    margin:0 0 0 1em; /* indentation */
+    padding:0;
+    list-style:none;
+    color:#369;
+    position:relative;
+}
+
+.tree ul {margin-left:.5em} /* (indentation/2) */
+
+.tree:before,
+.tree ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid;
+}
+
+.tree li {
+    margin:0;
+    padding:0 1.5em; /* indentation + .5em */
+    line-height:2em; /* default list item's `line-height` */
+    font-weight:bold;
+    position:relative;
+}
+
+.tree li:before {
+    content:"";
+    display:block;
+    width:10px; /* same with indentation */
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px; /* border top width */
+    position:absolute;
+    top:1em; /* (line-height/2) */
+    left:0;
+}
+
+.tree li:last-child:before {
+    background:white; /* same with body background */
+    height:auto;
+    top:1em; /* (line-height/2) */
+    bottom:0;
+}
+td .glyphicon{
+    cursor: pointer;
+}
+.panel-footer .pagination{
+    padding: 0;
+    margin: 0;
+}
+.fix-menu > li > .dropdown-menu{
+    left: 0;
+}
